@@ -1,0 +1,28 @@
+This is myb first effort to build a social room for conncting people.
+
+This room has login capabilities and register capabilities for new users!
+This room also provides the ability to lock (session login) certain pages
+
+The user can have:
+Upload photos in a gallery
+Add friends in a list
+Add comments (public or private)
+
+There is an administrator with 
+name:admin
+passwd:admin
+
+Administrator can change user privilleges,adds comments and creates galleries
+
+Simple user can only upload images and add friends!
+
+There are some ajax capabilities in the new login form!
+
+Future Work:
+More secure links in sessions
+Better user interfaces
+More capabilities in users
+Better administration menu
+Localization in diffrent languages
+
+Some data are in Greek!!!!
