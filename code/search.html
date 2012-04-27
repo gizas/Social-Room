@@ -1,0 +1,136 @@
+<html >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>My Book</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">My Book</a></h1>
+			<h2><a href="http://localhost/askhsh">Βρείτε τις εικόνες σας</a></h2>
+		</div>
+		<!-- end div#logo -->
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="index.php">Αρχικη</a></li>
+				<li><a href="viewgallery.php">Εικoνες</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+		<!-- end div#menu -->
+	</div>
+	<!-- end div#header -->
+	<div id="page">
+		<div id="content">
+			<div id="welcome">
+				<center>
+<h1> Αναζήτηση Χρήστη</h1>
+<p>
+Εισάγεται όνομα χρήστη ή κωδικό ή email για να αναζητήσετε στον χρήστη.
+</p>
+
+<script language="javascript" type="text/javascript">
+<!-- 
+//Browser Support Code
+function ajaxFunction(){
+	var ajaxRequest;  // The variable that makes Ajax possible!
+	
+	try{
+		// Opera 8.0+, Firefox, Safari
+		ajaxRequest = new XMLHttpRequest();
+	} catch (e){
+		// Internet Explorer Browsers
+		try{
+			ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+		} catch (e) {
+			try{
+				ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch (e){
+				// Something went wrong
+				alert("Your browser broke!");
+				return false;
+			}
+		}
+	}
+	// Create a function that will receive data sent from the server
+	ajaxRequest.onreadystatechange = function(){
+		if(ajaxRequest.readyState == 4){
+			var ajaxDisplay = document.getElementById('ajaxDiv');
+			ajaxDisplay.innerHTML = ajaxRequest.responseText;
+		}
+	}
+	var age = document.getElementById('name').value;
+	var wpm = document.getElementById('surname').value;
+	var sex = document.getElementById('email').value;
+	var queryString = "?name=" + age + "&surname=" + wpm + "&email=" + sex;
+	ajaxRequest.open("GET", "ajax_search.php" + queryString, true);
+	ajaxRequest.send(null); 
+}
+
+//-->
+</script>
+
+
+
+<form name='myForm'>
+Όνομα: <input type='text' id='name' /> <br />
+Επίθετο: <input type='text' id='surname' />
+<br />
+Email: <input type='text' id='email' />
+<br/>
+<input type='button' onclick='ajaxFunction()' value='Αναζήτηση στη βάση χρηστών' />
+</form>
+<div id='ajaxDiv'>Το αποτέλεσμά σας θα εμφανιστεί παρακάτω</div>
+
+
+
+			</div>
+			
+		</div>
+		<!-- end div#content -->
+		<div id="sidebar">
+			<ul>
+				<li id="submenu">
+					<h2>Other Links</h2>
+					<ul>
+						<li><a href="first_page2.php">O Προσωπικός μου χώρος</a></li>
+						<li><a href="upload.php">Ανεβάστε τις δικές σας Εικόνες</a></li>
+					</ul>
+				</li>
+				<!-- end li#submenu -->
+				<li id="news">
+					<h2>News</h2>
+					<ul>
+						
+					</ul>
+				</li>
+				<!-- end li#news -->
+			</ul>
+		</div>
+		<!-- end div#sidebar -->
+		<div style="clear: both; height: 1px"></div>
+	</div>
+	<!-- end div#page -->
+	<div id="footer">
+		<p id="legal"></p>
+		<p id="links"><a href="#"></p>
+	</div>
+	<!-- end div#footer -->
+</div>
+<!-- end div#wrapper -->
+</body>
+</html>
+
+
+
+
+
+					
+	

@@ -1,0 +1,180 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   addf.php
+#	new file:   adminpro.css
+#	new file:   adminpro_class.php
+#	new file:   adminpro_config.php
+#	new file:   adminuser.css
+#	new file:   adminuser.php
+#	new file:   adminuser_config.php
+#	new file:   ajax_gall.php
+#	new file:   ajax_search.php
+#	new file:   code/addf.php
+#	new file:   code/adminpro.css
+#	new file:   code/adminpro_class.php
+#	new file:   code/adminpro_config.php
+#	new file:   code/adminuser.css
+#	new file:   code/adminuser.php
+#	new file:   code/adminuser_config.php
+#	new file:   code/ajax_gall.php
+#	new file:   code/ajax_search.php
+#	new file:   code/config.inc.php
+#	new file:   code/createfriends.php
+#	new file:   code/creategal.php
+#	new file:   code/css/_notes/dwsync.xml
+#	new file:   code/css/bullet.gif
+#	new file:   code/css/loading.gif
+#	new file:   code/css/protoformclass.jpg
+#	new file:   code/css/styles.css
+#	new file:   code/default.css
+#	new file:   code/first_page2.php
+#	new file:   code/friends.php
+#	new file:   code/friends2.php
+#	new file:   code/images/img01.gif
+#	new file:   code/images/img02.gif
+#	new file:   code/images/img03.gif
+#	new file:   code/images/img04.gif
+#	new file:   code/images/img05.gif
+#	new file:   code/images/img06.gif
+#	new file:   code/images/locate.png
+#	new file:   code/images/minidown.png
+#	new file:   code/images/miniup.png
+#	new file:   code/images/save.png
+#	new file:   code/images/search.png
+#	new file:   code/images/spacer.gif
+#	new file:   code/images/up.png
+#	new file:   code/images/up_off.png
+#	new file:   code/images/view.png
+#	new file:   code/index.php
+#	new file:   code/js/dgscripts.js
+#	new file:   code/js/prototype.js
+#	new file:   code/login.html
+#	new file:   code/logout.html
+#	new file:   code/mysql_dialog.php
+#	new file:   code/news.php
+#	new file:   code/news_send.php
+#	new file:   code/notifyr.php
+#	new file:   code/notifys.php
+#	new file:   code/photos/1.jpg
+#	new file:   code/photos/10.jpg
+#	new file:   code/photos/11.jpg
+#	new file:   code/photos/12.jpg
+#	new file:   code/photos/2.jpg
+#	new file:   code/photos/3.jpg
+#	new file:   code/photos/4.jpg
+#	new file:   code/photos/5.jpg
+#	new file:   code/photos/6.jpg
+#	new file:   code/photos/7.jpg
+#	new file:   code/photos/8.jpg
+#	new file:   code/photos/9.jpg
+#	new file:   code/photos/tb_1.jpg
+#	new file:   code/photos/tb_10.jpg
+#	new file:   code/photos/tb_11.jpg
+#	new file:   code/photos/tb_12.jpg
+#	new file:   code/photos/tb_2.jpg
+#	new file:   code/photos/tb_3.jpg
+#	new file:   code/photos/tb_4.jpg
+#	new file:   code/photos/tb_5.jpg
+#	new file:   code/photos/tb_6.jpg
+#	new file:   code/photos/tb_7.jpg
+#	new file:   code/photos/tb_8.jpg
+#	new file:   code/photos/tb_9.jpg
+#	new file:   code/profil.php
+#	new file:   code/protoformclass.js
+#	new file:   code/register.php
+#	new file:   code/search.html
+#	new file:   code/search2.html
+#	new file:   code/send.php
+#	new file:   code/sendmail.php
+#	new file:   code/test/AC_RunActiveContent.js
+#	new file:   code/test/live.fla
+#	new file:   code/test/live.html
+#	new file:   code/test/live.swf
+#	new file:   code/upload.php
+#	new file:   code/upload_photos.php
+#	new file:   code/uploadone.php
+#	new file:   code/users/ATT00001.jpg
+#	new file:   code/users/Air_Lines.jpg
+#	new file:   code/users/DSCN2858.JPG
+#	new file:   code/users/user.jpg
+#	new file:   code/viewgallery.php
+#	new file:   code/viewgalleryp.php
+#	new file:   code/viewnews.php
+#	new file:   config.inc.php
+#	new file:   createfriends.php
+#	new file:   creategal.php
+#	new file:   database_sample/askhsh_DB__.sql
+#	new file:   default.css
+#	new file:   first_page2.php
+#	new file:   friends.php
+#	new file:   friends2.php
+#	new file:   index.php
+#	new file:   login.html
+#	new file:   logout.html
+#	new file:   mysql_dialog.php
+#	new file:   news.php
+#	new file:   news_send.php
+#	new file:   notifyr.php
+#	new file:   notifys.php
+#	new file:   profil.php
+#	new file:   protoformclass.js
+#	new file:   register.php
+#	new file:   search.html
+#	new file:   search2.html
+#	new file:   send.php
+#	new file:   sendmail.php
+#	new file:   upload.php
+#	new file:   upload_photos.php
+#	new file:   uploadone.php
+#	new file:   viewgallery.php
+#	new file:   viewgalleryp.php
+#	new file:   viewnews.php
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README
+#	deleted:    addf.php
+#	deleted:    adminpro.css
+#	deleted:    adminpro_class.php
+#	deleted:    adminpro_config.php
+#	deleted:    adminuser.css
+#	deleted:    adminuser.php
+#	deleted:    adminuser_config.php
+#	deleted:    ajax_gall.php
+#	deleted:    ajax_search.php
+#	deleted:    config.inc.php
+#	deleted:    createfriends.php
+#	deleted:    creategal.php
+#	deleted:    default.css
+#	deleted:    first_page2.php
+#	deleted:    friends.php
+#	deleted:    friends2.php
+#	deleted:    index.php
+#	deleted:    login.html
+#	deleted:    logout.html
+#	deleted:    mysql_dialog.php
+#	deleted:    news.php
+#	deleted:    news_send.php
+#	deleted:    notifyr.php
+#	deleted:    notifys.php
+#	deleted:    profil.php
+#	deleted:    protoformclass.js
+#	deleted:    register.php
+#	deleted:    search.html
+#	deleted:    search2.html
+#	deleted:    send.php
+#	deleted:    sendmail.php
+#	deleted:    upload.php
+#	deleted:    upload_photos.php
+#	deleted:    uploadone.php
+#	deleted:    viewgallery.php
+#	deleted:    viewgalleryp.php
+#	deleted:    viewnews.php
+first commit gizas

@@ -1,0 +1,92 @@
+<html >
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>My Book</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">My Book</a></h1>
+			<h2><a href="http://localhost/askhsh">Βρείτε τις εικόνες σας</a></h2>
+		</div>
+		<!-- end div#logo -->
+		<div id="menu">
+			<ul>
+				<li><a href="index.php">Αρχικη</a></li>
+				<li><a href="viewgallery.php">Εικoνες</a></li>
+				<li class="active"><a href="login.html">Login</a></li>
+				<li><a href="#"></a></li>
+			</ul>
+		</div>
+		<!-- end div#menu -->
+	</div>
+	<!-- end div#header -->
+	<div id="page">
+		<div id="content">
+			<div id="welcome">
+				<center>
+<h1> LOGIN PAGE</h1>
+<p>
+Εισάγεται όνομα χρήστη και κωδικό και εισέλθετε στον ιστότοπό μας, ως χρήστες.
+</p>
+<form action="first_page2.php" method="POST">
+<input type="hidden" name="action" value="login">
+<table align="center" cellpadding="2" cellspacing="0">
+<tr><td align="right">Email:</td><td><input type="text" name="userName"></td></tr>
+<tr><td align="right">Password:</td><td><input type="password" name="userPass"></td></tr>
+<tr><td>Remember this login*:</td><td>
+<input type="radio" name="userRemember" value="no" checked>No
+<input type="radio" name="userRemember" value="yes">Yes
+<br/>
+</td></tr>
+
+<tr><td></td><td><input type="submit" value="Login"></td></tr>
+</form>
+</table>
+<br><i>
+Αν δεν έχετε κάνει εγγραφή ακόμα, <a href="register.php">εγραφείτε παρακάτω...</a>
+<br/><a href="register.php"><b>Εγγραφή</b></a>
+</i>
+</center>
+
+			</div>
+			
+		</div>
+		<!-- end div#content -->
+		<div id="sidebar">
+			<ul>
+				<li id="submenu">
+					<h2>Other Links</h2>
+					<ul>
+						<li><a href="first_page2.php">O Προσωπικός μου χώρος</a></li>
+						<li><a href="upload.php">Ανεβάστε τις δικές σας Εικόνες</a></li>
+					</ul>
+				</li>
+				<!-- end li#submenu -->
+				<li id="news">
+					<h2>News</h2>
+					<ul>
+						
+					</ul>
+				</li>
+				<!-- end li#news -->
+			</ul>
+		</div>
+		<!-- end div#sidebar -->
+		<div style="clear: both; height: 1px"></div>
+	</div>
+	<!-- end div#page -->
+	<div id="footer">
+		<p id="legal"></p>
+		<p id="links"><a href="#"></p>
+	</div>
+	<!-- end div#footer -->
+</div>
+<!-- end div#wrapper -->
+</body>
+</html>
+
